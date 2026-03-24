@@ -1,8 +1,20 @@
 # PowerShell Automation Scripts
 
-This repository contains a sample of PowerShell scripts that Mike created, focused on automation and systems administration tasks.
+This repository contains PowerShell scripts created by Mike, focused on automation and systems administration tasks.
 
 ## 📂 Scripts
+
+### 🔹 Analyze C Drive Usage
+**File:** `analyze c drive usage.ps1`  
+**Description:**  
+Analyzes disk usage on the C:\ drive to identify space consumption:
+- Displays total drive space (used, free, and total)  
+- Lists top folders by size (configurable depth, default 4 levels)  
+- Identifies largest individual files with size and last modified date  
+- Includes Volume Shadow Copy storage details  
+- Helps pinpoint disk space issues for cleanup and optimization  
+
+---
 
 ### 🔹 Generate Ninja Org and Location GUIDs
 **File:** `generate ninja org and location guids if empty and update existing to all caps if needed.ps1`  
@@ -32,18 +44,6 @@ Searches the Windows System Event Log to identify planned reboots and shutdowns:
 - Checks for Event ID 1074 (planned restart/shutdown)  
 - Helps track intentional system restarts and shutdown activity  
 - Useful for troubleshooting and audit purposes  
-
----
-
-### 🔹 Analyze C Drive Usage
-**File:** `analyze c drive usage.ps1`  
-**Description:**  
-Analyzes disk usage on the C:\ drive to identify space consumption:
-- Displays total drive space (used, free, and total)  
-- Lists top folders by size (configurable depth, default 4 levels)  
-- Identifies largest individual files with size and last modified date  
-- Includes Volume Shadow Copy storage details  
-- Helps pinpoint disk space issues for cleanup and optimization  
 
 ---
 
