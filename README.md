@@ -47,6 +47,19 @@ Searches the Windows System Event Log to identify planned reboots and shutdowns:
 
 ---
 
+### 🔹 Windows Computer Rename
+**File:** `windows computer rename.ps1`  
+**Description:**  
+Renames a Windows computer based on a predefined mapping of current names to standardized naming conventions:
+- Checks the current computer name against a defined rename map  
+- Renames the system if a match is found  
+- Uses `Rename-Computer` and logs the operation for auditing  
+- Runs safely with error handling and transcript logging  
+- Designed to operate in an RMM environment (e.g., NinjaRMM scripting path)  
+- Supports TLS 1.2 for secure remote script execution scenarios  
+
+---
+
 ## 🛠️ Technologies Used
 - PowerShell  
 - REST APIs  
