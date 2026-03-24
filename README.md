@@ -16,13 +16,13 @@ Analyzes disk usage on the C:\ drive to identify space consumption:
 
 ---
 
-### 🔹 Generate Ninja Org and Location GUIDs
-**File:** `generate ninja org and location guids if empty and update existing to all caps if needed.ps1`  
+### 🔹 Generate NinjaOne Org and Location GUIDs
+**File:** `generate ninjaone org and location guids if empty and update existing to all caps if needed.ps1`  
 **Description:**  
 Uses the NinjaOne API to:
 - Generate organization and location GUIDs if they are missing  
 - Standardize existing GUIDs to uppercase  
-- Update global custom fields accordingly  
+- Updates NinjaOne global custom fields accordingly  
 
 ---
 
