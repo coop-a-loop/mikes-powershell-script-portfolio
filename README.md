@@ -29,7 +29,7 @@ Uses the NinjaOne API to:
 ### 🔹 M365 Group Export (Including Empty Groups)
 **File:** `m365 group export include groups with no members.ps1`  
 **Description:**  
-Export all Microsoft 365, security, and distribution group memberships—including empty groups—to a CSV for auditing and reporting:
+Export all Microsoft 365 security and distribution group memberships—including empty groups—to a CSV for auditing and reporting:
 - Retrieves all Microsoft 365, security, and distribution groups
 - Detects if Unified groups are Teams-connected
 - Expands member info: name, email, UPN, ID, and type
