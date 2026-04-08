@@ -16,7 +16,7 @@ Analyzes disk usage on the C:\ drive to identify space consumption:
 
 ---
 
-### 🔹 Generate NinjaOne Org and Location GUIDs
+### 🔹 Generate NinjaOne Org and Location GUIDs (Global Custom Fields)
 **File:** `generate ninjaone org and location guids if empty and update existing to all caps if needed.ps1`  
 **Description:**  
 Uses the NinjaOne API to:
