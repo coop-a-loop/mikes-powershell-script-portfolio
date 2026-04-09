@@ -31,6 +31,19 @@ Analyzes disk usage on the C:\ drive to identify space consumption:
 
 ---
 
+### 🔹 Disable Named Windows Services
+**File:** `disable named windows services.ps1`  
+**Description:**  
+Stops and disables any list of specified Windows services for controlled management:
+- Accepts a customizable list of service names to target  
+- Checks if each service exists before attempting to stop or disable it  
+- Stops running services and sets their startup type to `Disabled`  
+- Supports interactive execution or automated deployment via RMM  
+- Logs all actions to a transcript file in either the RMM script path or Windows logs directory  
+- Useful for preventing unwanted service execution or managing service states in a standardized way  
+
+---
+
 ### 🔹 Generate NinjaOne Org and Location GUIDs (Global Custom Fields)
 **File:** `generate ninjaone org and location guids if empty and update existing to all caps if needed.ps1`  
 **Description:**  
