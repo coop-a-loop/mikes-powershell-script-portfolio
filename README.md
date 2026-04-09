@@ -77,6 +77,20 @@ Searches the Windows System Event Log to identify planned reboots and shutdowns:
 
 ---
 
+### 🔹 Activate Windows 10 ESU (Extended Security Updates)
+**File:** `msft-windows-win10-esu-activation.ps1`  
+**Description:**  
+Automates the installation and activation of Windows 10 Extended Security Updates (ESU) for eligible devices:
+- Validates device organization and location before proceeding  
+- Maps computer names to assigned ESU activation keys  
+- Checks if the device is running Windows 10 22H2 and eligible for ESU  
+- Installs the ESU key using `slmgr /ipk` and activates with `slmgr /ato`  
+- Updates device properties via NinjaRMM to track ESU key, activation status, and expiration date  
+- Logs all actions to a transcript file in the Windows logs directory  
+- Prevents execution if ESU is already active or if organization/location does not match the script criteria  
+
+---
+
 ### 🔹 Upgrade Windows 11 Home to Pro
 **File:** `win 11 home to pro upgrade.ps1`  
 **Description:**  
