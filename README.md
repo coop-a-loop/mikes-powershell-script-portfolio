@@ -77,6 +77,20 @@ Renames a Windows computer based on a predefined mapping of current names to sta
 
 ---
 
+### 🔹 Upgrade Windows 11 Home to Pro
+**File:** `win 11 home to pro upgrade.ps1`  
+**Description:**  
+Automates upgrading Windows 11 Home devices to Pro using device-specific product keys via RMM:
+- Maps computer names to assigned Windows 11 Pro product keys  
+- Validates if the device is running Windows 11 Home/Core before upgrading  
+- Skips upgrade if already on Pro or not running Windows 11  
+- Executes upgrade using `changepk.exe` with the appropriate product key  
+- Uses environment variables for context (e.g., computer name, script source)  
+- Logs execution details to a transcript file in the Windows logs directory  
+- Designed for controlled, per-device license assignment and upgrade automation  
+
+---
+
 ## 🛠️ Technologies Used
 - PowerShell  
 - REST APIs  
