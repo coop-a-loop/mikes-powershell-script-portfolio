@@ -4,6 +4,21 @@ This repository contains PowerShell scripts created by Mike, focused on automati
 
 ## 📂 Scripts
 
+---
+
+### 🔹 Configure Windows Login Banner
+**File:** `add login banner.ps1`  
+**Description:**  
+Configures a Windows login banner via registry settings, typically deployed through an RMM tool:
+- Sets `LegalNoticeCaption` (banner title) and `LegalNoticeText` (login message)  
+- Uses a customizable warning message for security and compliance purposes  
+- Enables TLS 1.2 for secure communications  
+- Leverages environment variables for script context (e.g., script URL, description)  
+- Logs execution details to a transcript file in the Windows logs directory  
+- Ensures users see a legal notice prior to system logon  
+
+---
+
 ### 🔹 Analyze C Drive Usage
 **File:** `analyze c drive usage.ps1`  
 **Description:**  
